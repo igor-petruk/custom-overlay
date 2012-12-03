@@ -16,7 +16,11 @@ LICENSE="GPL-3"
 SLOT="0"
 IUSE=""
 
-DEPEND=""
+DEPEND="
+	>=x11-libs/gtk+-3.4.4[introspection]
+	>=dev-lang/python-3.2.3
+	>=dev-python/pymongo-2.4
+"
 
 RDEPEND=""
 
