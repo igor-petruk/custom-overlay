@@ -3,11 +3,11 @@
   <repo priority="50" quality="experimental" status="unofficial">
     <name>ipetruk</name>
     <description>Overlay to simplify installation of https://github.com/igor-petruk projects</description>
-    <homepage>https://github.com/igor-petruk/custom-overlay</homepage>
+    <homepage>http://github.com/igor-petruk/custom-overlay</homepage>
     <owner>
       <email>igor.petrouk@gmail.com</email>
       <name>Igor Petruk</name>
     </owner>
-    <source type="git">https://github.com/igor-petruk/custom-overlay.git</source>
+    <source type="git">git://github.com/igor-petruk/custom-overlay.git</source>
   </repo>
 </repositories>
