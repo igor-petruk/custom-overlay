@@ -17,6 +17,7 @@ SLOT="0"
 IUSE=""
 
 DEPEND="
+	>=x11-libs/gtksourceview-3.4.2[introspection]
 	>=x11-libs/gtk+-3.4.4[introspection]
 	>=dev-lang/python-3.2.3
 	>=dev-python/pymongo-2.4
