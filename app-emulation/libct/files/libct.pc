@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=/usr/lib64
+includedir=${prefix}/include
+
+Name: libct
+Description: libct container management library.
+Version: 9999
+Requires: libnl-3.0 libnl-route-3.0 
+Libs: -L${libdir} -lct 
+Cflags: -I${includedir}
